@@ -14,6 +14,8 @@ app.get("/", (req, res, next) => {
 });
 
 app.use("/api/user/", require("./routes/userRoutes"));
+app.use("/api/blog/", require("./routes/blogRoutes"));
+
 
 const port = process.env.PORT || 3001;
 

@@ -41,6 +41,7 @@ const signup = async (req, res, next) => {
       name,
       email,
       password: hashedPassword,
+      blogs: [],
     });
   } catch (error) {
     res.status(500).json({ message: "Couldn't save data to database" });
