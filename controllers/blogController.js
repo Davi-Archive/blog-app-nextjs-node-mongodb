@@ -8,7 +8,7 @@ const userDB = models.userModel;
 const getAllBlogs = async (req, res, next) => {
   let blogs;
   try {
-    blogs = await blogDB.find();
+    blogs = await blogDB.find().populate("user");
   } catch (error) {
     return console.log(error);
   }

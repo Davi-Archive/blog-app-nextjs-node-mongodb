@@ -67,7 +67,7 @@ const login = async (req, res) => {
   if (!isPasswordCorrect) {
     return res.status(400).json({ message: "Incorrect Password" });
   }
-  return res.status(200).json({ message: "Login Successfull" });
+  return res.status(200).json({ message: "Login Successfull", user: existingUser });
 };
 
 module.exports = { getUser, signup, login };
