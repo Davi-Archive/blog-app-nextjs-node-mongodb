@@ -55,13 +55,14 @@ const addBlog = async (req, res) => {
 // PUT /api/blog/:id
 
 const updateBlog = async (req, res, next) => {
-  const { title, description } = req.body;
+  const { title, description, image } = req.body;
   const blogId = req.params.id;
   let blog;
   try {
     blog = await blogDB.findByIdAndUpdate(blogId, {
       title,
       description,
+      image,
     });
   } catch (error) {
     return console.log(error);
