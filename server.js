@@ -2,11 +2,11 @@ const express = require("express");
 const cors = require("cors");
 const colors = require("colors");
 const app = express();
+app.use(cors());
 require("dotenv").config();
 
 const connectDB = require("./config/db");
 
-app.use(cors());
 app.use(express.json()) // all data ib json
 
 app.get("/", (req, res, next) => {
