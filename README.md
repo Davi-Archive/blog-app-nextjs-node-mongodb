@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This is the code for my portfolio server that gives data for the frontend located at [HERE](https://blog-site-client.vercel.app/)
+This is the code for my blog server that gives data for the frontend located at [HERE](https://blog-site-client.vercel.app/)
 
 
 ## Live Version
