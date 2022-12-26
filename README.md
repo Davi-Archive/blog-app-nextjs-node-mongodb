@@ -2,8 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/107776531/193677986-694ceff6-b6af-4899-a906-22ca4c496a5a.png)
 
-davi@davi.com
-davi
+DEMO USER: davi@davi.com
+
+DEMO PASSWORD: davi
 
 ## Introduction
 
