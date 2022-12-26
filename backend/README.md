@@ -1,13 +1,12 @@
-# Blog
+## Blog Server
 
-![image](https://user-images.githubusercontent.com/107776531/193677986-694ceff6-b6af-4899-a906-22ca4c496a5a.png)
+![2018-03-12-img-blog-sse-1024x576](https://user-images.githubusercontent.com/107776531/195628877-96e9068e-94a2-45fc-8dfa-7a6ffb49b1c3.jpg)
 
-davi@davi.com
-davi
 
 ## Introduction
 
-This is the code for a Blog using an Express API with Create, Read, Update and Delete functions.
+This is the code for my blog server that gives data for the frontend located at [HERE](https://blog-site-client.vercel.app/)
+
 
 ## Live Version
 
@@ -17,25 +16,19 @@ This site is currently live. [View the Live Website]
 
 Javascript
 
-React
-
-Redux
-
 Node
 
 Express
 
-Bcrypt
+MongoDB
 
-Bootstrap
-
-MaterialUI
-
-React Router DOM
+Colors
 
 ### Quality Checks
 
 Jest Tests
+
+Page exhibition speed measured with Google PageSpeed (https://developers.google.com/speed/pagespeed/insights/). 
 
 ## Feedback and Bugs
 
@@ -59,4 +52,4 @@ davi4alves@gmail.com
 
 
 
-[View the Live Website]:https://blog-site-client.vercel.app/
+[View the Live Website]: https://blog-site-server-seven.vercel.app/
